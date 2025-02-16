@@ -1,0 +1,102 @@
+[
+  {
+    "scoreRange": "300 - 599",
+    "apr": 9.99,
+    "effectiveDate": "2024-08-01"
+  },
+  {
+    "scoreRange": "600 - 649",
+    "apr": 6.24,
+    "effectiveDate": "2024-07-01"
+  },
+  {
+    "scoreRange": "650 - 699",
+    "apr": 4.99,
+    "effectiveDate": "2024-06-01"
+  },
+  {
+    "scoreRange": "700 - 749",
+    "apr": 3.99,
+    "effectiveDate": "2024-05-01"
+  },
+  {
+    "scoreRange": "750 - 850",
+    "apr": 3.124,
+    "effectiveDate": "2024-04-01"
+  },
+  {
+    "scoreRange": "300 - 599",
+    "apr": 10.25,
+    "effectiveDate": "2024-03-01"
+  },
+  {
+    "scoreRange": "600 - 649",
+    "apr": 6.5,
+    "effectiveDate": "2024-02-01"
+  },
+  {
+    "scoreRange": "650 - 699",
+    "apr": 5.1,
+    "effectiveDate": "2024-01-01"
+  },
+  {
+    "scoreRange": "700 - 749",
+    "apr": 4.05,
+    "effectiveDate": "2023-12-01"
+  },
+  {
+    "scoreRange": "750 - 850",
+    "apr": 3.15,
+    "effectiveDate": "2023-11-01"
+  },
+  {
+    "scoreRange": "300 - 599",
+    "apr": 10.5,
+    "effectiveDate": "2023-10-01"
+  },
+  {
+    "scoreRange": "600 - 649",
+    "apr": 6.75,
+    "effectiveDate": "2023-09-01"
+  },
+  {
+    "scoreRange": "650 - 699",
+    "apr": 5.25,
+    "effectiveDate": "2023-08-01"
+  },
+  {
+    "scoreRange": "700 - 749",
+    "apr": 4.15,
+    "effectiveDate": "2023-07-01"
+  },
+  {
+    "scoreRange": "750 - 850",
+    "apr": 3.175,
+    "effectiveDate": "2023-06-01"
+  },
+  {
+    "scoreRange": "300 - 599",
+    "apr": 10.75,
+    "effectiveDate": "2023-05-01"
+  },
+  {
+    "scoreRange": "600 - 649",
+    "apr": 7,
+    "effectiveDate": "2023-04-01"
+  },
+  {
+    "scoreRange": "650 - 699",
+    "apr": 5.5,
+    "effectiveDate": "2023-03-01"
+  },
+  {
+    "scoreRange": "700 - 749",
+    "apr": 4.25,
+    "effectiveDate": "2023-02-01"
+  },
+  {
+    "scoreRange": "750 - 850",
+    "apr": 3.2,
+    "effectiveDate": "2023-01-01"
+  }
+]
