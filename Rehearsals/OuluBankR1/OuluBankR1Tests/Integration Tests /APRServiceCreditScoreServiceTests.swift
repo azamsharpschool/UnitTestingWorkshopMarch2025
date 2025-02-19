@@ -10,7 +10,7 @@ import Testing
 
 struct APRServiceCreditScoreServiceTests {
 
-    @Test func aprServiceCallsGetCreditScoreOnCreditScoreService() async throws {
+    @Test func apr_service_requests_credit_score_from_credit_service() async throws {
         
         let validSSN = "123-45-6789"
         
@@ -26,12 +26,11 @@ struct APRServiceCreditScoreServiceTests {
             let aprService = APRService(creditScoreService: mockCreditScoreService)
             let _ = try await aprService.getAPR(ssn: validSSN)
         
-        }
-        
+        }   
     }
     
     @Test(arguments: ["", "abc-sd-sscx"])
-    func aprService_DoesNotCallGetCreditScore_WhenSSNIsInvalid(invalidSSN: String) async throws {
+    func apr_service_does_not_request_credit_score_for_invalid_ssn(invalidSSN: String) async throws {
         
         var mockCreditScoreService = MockCreditScoreService()
         
@@ -43,13 +42,9 @@ struct APRServiceCreditScoreServiceTests {
             }
             
             let aprService = APRService(creditScoreService: mockCreditScoreService)
-            do {
-                let _ = try await aprService.getAPR(ssn: invalidSSN)
-            } catch {
-                print(error.localizedDescription)
-            }
+            
+            let _ = try? await aprService.getAPR(ssn: invalidSSN)
         }
-        
     }
 
 }

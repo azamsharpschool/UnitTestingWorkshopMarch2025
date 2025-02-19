@@ -17,8 +17,7 @@ final class OuluBankR1UITests: XCTestCase {
         app.launch()
     }
     
-    @MainActor
-    func test_CalculateAPR_WhenValidSSNIsEntered_AndButtonIsPressed_DisplaysAPROnScreen() {
+    func test_calculate_apr_when_provided_with_a_valid_ssn() {
        
         let ssnTextField = app.textFields["ssnTextField"]
         ssnTextField.tap()
@@ -34,9 +33,7 @@ final class OuluBankR1UITests: XCTestCase {
         XCTAssertNotEqual(aprText.label, "", "APR text should not be empty.")
     }
     
-    
-    @MainActor
-    func test_WhenInvalidSSN_PassedToCreditScoreService_ErrorMessage_DisplaysOnScreen() {
+    func test_displays_error_message_when_credit_score_was_not_found_for_the_provided_ssn() {
         
         let expectedErrorMessage = "No credit score was found for the provided SSN."
         

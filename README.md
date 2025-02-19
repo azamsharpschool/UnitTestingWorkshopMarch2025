@@ -53,7 +53,7 @@ Suitable for both **novice and experienced** iOS developers.
 
 ## 📂 Projects  
 - 📥 **[Download Starter Project](/Projects/OuluBankR1-Starter.zip)**  
-- ✅ **[Download Final Project](/Projects/OuluBankR1.zip)**  
+- ✅ **[Download Final Project](/Projects/OuluBankR1-Final.zip)**  
 
 
 ## 🔄 Integration Testing and Mocking  
