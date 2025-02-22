@@ -7,10 +7,6 @@
 
 import Foundation
 
-struct APRService {
-    
-    func getAPR(ssn: String) async throws -> Double {
-        return 3.142
-    }
-    
-}
+
+
+
