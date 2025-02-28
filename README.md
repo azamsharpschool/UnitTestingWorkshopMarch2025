@@ -49,7 +49,7 @@ Suitable for both **novice and experienced** iOS developers.
 
 ## 📑 Slides  
 
-📥 **[Download the Slides]()**  
+📥 **[Download the Slides](PragmaticTestingIniOS.key)**  
 
 ## 📂 Projects  
 - 📥 **[Download Starter Project](/Projects/OuluBankR1-Starter.zip)**  
