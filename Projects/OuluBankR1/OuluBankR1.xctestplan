@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "759BFBE6-DACB-4FB8-B6B4-3DD72B0D59E7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:OuluBankR1.xcodeproj",
+      "identifier" : "8DDA7EC92D5E7A3E00C57DD6",
+      "name" : "OuluBankR1"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OuluBankR1.xcodeproj",
+        "identifier" : "8DDA7EDE2D5E7A6400C57DD6",
+        "name" : "OuluBankR1Tests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OuluBankR1.xcodeproj",
+        "identifier" : "8D5051A72D6168AC00CB3AA4",
+        "name" : "OuluBankR1UITests"
+      }
+    }
+  ],
+  "version" : 1
+}

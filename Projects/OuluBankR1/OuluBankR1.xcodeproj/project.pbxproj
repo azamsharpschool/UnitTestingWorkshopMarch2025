@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		8D5051A82D6168AC00CB3AA4 /* OuluBankR1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuluBankR1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA74CC52D73542600F68569 /* OuluBankR1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OuluBankR1.xctestplan; sourceTree = "<group>"; };
 		8DDA7ECA2D5E7A3E00C57DD6 /* OuluBankR1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuluBankR1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDA7EDF2D5E7A6400C57DD6 /* OuluBankR1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuluBankR1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +76,7 @@
 		8DDA7EC12D5E7A3E00C57DD6 = {
 			isa = PBXGroup;
 			children = (
+				8DA74CC52D73542600F68569 /* OuluBankR1.xctestplan */,
 				8DDA7ECC2D5E7A3E00C57DD6 /* OuluBankR1 */,
 				8DDA7EE02D5E7A6400C57DD6 /* OuluBankR1Tests */,
 				8D5051A92D6168AC00CB3AA4 /* OuluBankR1UITests */,
