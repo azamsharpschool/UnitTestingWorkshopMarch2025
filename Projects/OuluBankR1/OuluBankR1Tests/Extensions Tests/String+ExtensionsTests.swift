@@ -38,8 +38,8 @@ struct String_ExtensionsTests {
         "123-45-6789\t",         // Tab character
     ])
     
-    func invalidSSN(invalidSSN: String) {
-        #expect(!invalidSSN.isSSN)
+    func invalidSSN(ssn: String) {
+        #expect(!ssn.isSSN)
     }
     
     @Test(arguments: [
